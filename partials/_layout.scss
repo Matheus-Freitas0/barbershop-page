@@ -51,4 +51,22 @@
     padding: 14px 28px;
     color: $white-normal;
     background-color: $red-normal;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 14px 0;
+}
+
+.button-contact:hover{
+    background-color: $red-dark;
+    animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(1.02);
+    }
 }
