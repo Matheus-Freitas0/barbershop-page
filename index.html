@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Barbearia Estilo - Cuidamos do seu visual com estilo e personalidade. Marque seu horário conosco e viva uma experiência única.">
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
         <link
             href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
             rel="stylesheet">
@@ -20,44 +20,52 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link rel="stylesheet" href="style.css">
-
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-        <title>Barbearia</title>
+        <title>Barbearia Estilo</title>
     </head>
     <body>
         <div class="bg-home">
             <header>
                 <nav class="header-content container">
-                    <div class="header-icons">
-                        <a href="#">
+                    <div class="header-icons" data-aos="fade-down">
+                        <a href="https://instagram.com" target="_blank">
                             <i class="fa-brands fa-instagram fa-2x"></i>
                         </a>
 
-                        <a href="#">
+                        <a href="https://tiktok.com" target="_blank">
                             <i class="fa-brands fa-tiktok fa-2x"></i>
                         </a>
 
-                        <a href="#">
+                        <a href="https://facebook.com" target="_blank">
                             <i class="fa-brands fa-facebook fa-2x"></i>
                         </a>
                     </div>
 
-                    <div class="header-logo">
-                        <img src="assets/logo.svg" alt="Logo da Barbearia">
+                    <div class="header-logo" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <img data-aos="flip-up" data-aos-delay="200"
+                            data-aos-duration="500"
+                            src="assets/logo.svg"
+                            alt="Logo da Barbearia Estilo">
                     </div>
 
-                    <div>
-                        <a class="header-button" href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20agendar%20um%20horário%20!!!" target="_blank">
+                    <div data-aos="fade-down">
+                        <a class="header-button"
+                            href="https://api.whatsapp.com/send?phone=5511000000000&text=Gostaria%20de%20agendar%20um%20horário!"
+                            target="_blank">
                             Agendar horário
                         </a>
                     </div>
                 </nav>
 
-                <main class="hero container">
+                <main class="hero container" data-aos="fade-up"
+                    data-aos-delay="300">
                     <h1>Estilo é um reflexo da sua atitude e personalidade</h1>
-                    <p>Horário de funcionamento: 9:00 ás 19:00</p>
-                    <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20agendar%20um%20horário%20!!!" class="button-contact" target="_blank">
+                    <p>Horário de funcionamento: 9:00 às 19:00</p>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5511000000000&text=Gostaria%20de%20agendar%20um%20horário!"
+                        class="button-contact" target="_blank">
                         Agendar horário
                     </a>
                 </main>
@@ -66,41 +74,39 @@
 
         <section class="about">
             <div class="container about-content">
-                <div>
+                <div data-aos="zoom-in" data-aos-delay="100">
                     <img src="assets/images.svg"
-                        alt="imagem sobre a Barbearia">
+                        alt="Imagem sobre a Barbearia Estilo">
                 </div>
 
-                <div class="about-description">
-                    <h2>Sobre</h2>
-                    <p>testo teste teste testo teste teste testo teste teste
-                        testo teste teste testo teste teste testo teste teste
-                        testo teste teste testo teste testetesto teste teste
-                        testo teste teste testo teste teste testo teste teste
-                        testo teste teste testo teste teste testo teste teste
-                        testo teste teste testo teste testetesto teste teste</p>
+                <div class="about-description" data-aos="zoom-out-left"
+                    data-aos-delay="100">
+                    <h2>Sobre Nós</h2>
+                    <p>Na Barbearia Estilo, oferecemos um serviço de excelência
+                        que vai além do simples corte de cabelo. Aqui, você
+                        encontra um espaço de relaxamento, estilo e cuidado
+                        pessoal. Nossa equipe de profissionais é dedicada a
+                        proporcionar uma experiência única para cada cliente,
+                        destacando o melhor da sua personalidade.</p>
                     <p>Horário de funcionamento: <strong>9:00</strong> às
                         <strong>19:00</strong></p>
                 </div>
-
             </div>
         </section>
 
         <section class="services">
             <div class="services-content container">
-                <h2>Serviços</h2>
-                <p>testo teste teste testo teste teste testo teste teste
-                    testo teste teste testo teste teste testo teste teste
-                    testo teste teste testo teste testetesto teste teste
-                    testo teste teste testo teste teste testo teste teste
-                    testo teste teste testo teste teste testo teste teste
-                    testo teste teste testo teste testetesto teste teste
-                </p>
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma variedade de serviços para você se sentir
+                    renovado e estiloso. Confira abaixo nossos principais
+                    serviços e venha nos visitar!</p>
             </div>
 
             <section class="haircuts">
-                <div class="haircut">
-                    <img src="assets/corte3.png" alt="Corte Normal">
+
+                <div class="haircut" data-aos="fade-up" data-aos-delay="50">
+                    <img src="assets/corte3.png" alt="Corte Normal"
+                        loading="lazy">
 
                     <div class="haircut-info">
                         <strong>Corte normal</strong>
@@ -110,8 +116,9 @@
                     </div>
                 </div>
 
-                <div class="haircut">
-                    <img src="assets/corte2.png" alt="Barba completa">
+                <div class="haircut" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/corte2.png" alt="Barba completa"
+                        loading="lazy">
 
                     <div class="haircut-info">
                         <strong>Barba completa</strong>
@@ -121,8 +128,9 @@
                     </div>
                 </div>
 
-                <div class="haircut">
-                    <img src="assets/corte1.png" alt="Corte e barba">
+                <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+                    <img src="assets/corte1.png" alt="Corte e barba"
+                        loading="lazy">
 
                     <div class="haircut-info">
                         <strong>Corte e barba</strong>
@@ -134,43 +142,80 @@
             </section>
         </section>
 
+        <section class="testimonials">
+            <div class="testimonial-content">
+                <h2>O que nossos clientes dizem</h2>
+
+                <div class="testimonial" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <p>"Excelente atendimento e ambiente acolhedor! Sempre saio satisfeito com meu corte."</p>
+                    <strong>João Silva</strong>
+                </div>
+
+                <div class="testimonial" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <p>"Profissionais de primeira! Não troco a Barbearia Estilo por nada."</p>
+                    <strong>Lucas Santos</strong>
+                </div>
+
+                <div class="testimonial" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <p>"Ambiente moderno e uma equipe altamente qualificada. Corte impecável!"</p>
+                    <strong>Maria Oliveira</strong>
+                </div>
+
+            </div>
+
+            <div class="newsletter" data-aos="fade-up" data-aos-delay="100">
+                <h2>Receba ofertas exclusivas</h2>
+                <form>
+                    <input type="email" placeholder="Insira seu e-mail aqui !!!">
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+
         <div class="services">
-            <h2>Venha conhecer</h2>
+            <h2>Venha nos conhecer</h2>
         </div>
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.4512880389425!2d-46.60531658821726!3d-23.480249278767484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef672b3b00001%3A0x52ec2afbadc14ef!2sShopping%20Metr%C3%B4%20Tucuruvi!5e0!3m2!1spt-BR!2sbr!4v1727286298986!5m2!1spt-BR!2sbr"
             width="100%" height="450" style="border:0;" allowfullscreen
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         <footer class="footer">
             <div class="footer-icons">
-                <a href="#">
+                <a href="https://instagram.com" target="_blank">
                     <i class="fa-brands fa-instagram fa-2x"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://tiktok.com" target="_blank">
                     <i class="fa-brands fa-tiktok fa-2x"></i>
                 </a>
 
-                <a href="#">
+                <a href="https://facebook.com" target="_blank">
                     <i class="fa-brands fa-facebook fa-2x"></i>
                 </a>
             </div>
 
             <div>
-                <img src="assets/logo.svg" alt="Logo Barbearia">
+                <img src="assets/logo.svg" alt="Logo Barbearia Estilo">
             </div>
 
-            <p>Copyright 2024 | Barbearia - Todos direitos reservados.</p>
+            <p>&copy; 2024 | Barbearia Estilo - Todos os direitos
+                reservados.</p>
         </footer>
 
-        <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" class="btn-whatsapp" target="_blank">
-            
-            <img src="assets/whatssapp.svg" alt="Botao whatsapp">
-            <span class="tooltip-text">Agende seu horario</span>
+        <a
+            href="https://api.whatsapp.com/send?phone=5511000000000&text=Gostaria%20de%20fazer%20um%20agendamento%20hoje!"
+            class="btn-whatsapp" target="_blank" data-aos="zoom-in-up"
+            data-aos-delay="300">
+            <img src="assets/whatssapp.svg" alt="Botão WhatsApp">
+            <span class="tooltip-text">Agende seu horário</span>
         </a>
+
         <script src="script.js"></script>
     </body>
 </html>
