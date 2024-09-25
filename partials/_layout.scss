@@ -59,7 +59,7 @@
 
 .button-contact:hover{
     background-color: $red-dark;
-    animation: scaleButton 0.8s alternate infinite;
+    animation: scaleButton 0.7s alternate infinite;
 }
 
 @keyframes scaleButton {
@@ -67,6 +67,28 @@
         transform: scale(1);
     }
     from{
-        transform: scale(1.02);
+        transform: scale(1.03);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero{
+        min-height: 60vh;
+
+        h1{
+            font-size: 34px;
+            padding: 0 14px;
+            width: 100%;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero h1{
+        font-size: 24px;
     }
 }
