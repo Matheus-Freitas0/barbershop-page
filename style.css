@@ -22,6 +22,7 @@ i {
 .header-icons {
   display: flex;
   gap: 14px;
+  margin-left: 10px;
 }
 
 .header-icons a:hover i {
@@ -43,6 +44,7 @@ i {
   border-radius: 4px;
   color: #FFF;
   background-color: transparent;
+  margin-right: 10px;
 }
 
 .header-button:hover {

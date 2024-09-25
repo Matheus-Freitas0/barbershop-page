@@ -15,6 +15,7 @@ i{
 .header-icons{
     display: flex;
     gap: 14px;
+    margin-left: 10px;
 }
 
 .header-icons a:hover{
@@ -39,6 +40,7 @@ i{
     border-radius: 4px;
     color: $white-normal;
     background-color: transparent;
+    margin-right: 10px;
 }
 
 .header-button:hover{
