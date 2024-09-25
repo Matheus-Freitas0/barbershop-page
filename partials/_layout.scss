@@ -210,3 +210,19 @@
         flex-direction: column;
     }
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 0;
+    gap: 18px;
+    color: $white-normal;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 10px;
+    color: $white-normal;
+}
